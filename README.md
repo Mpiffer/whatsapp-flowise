@@ -3,7 +3,7 @@
 <div><h1>WiseBOT</h1></div>
 <div><p>O WiseBOT é um chatbot que utiliza o Flowise para se comunicar e responder perguntas dos usuários.</p></div>
 <div><h2>Updates</h2></div>
-<div><ul><li>Corrigido o formato dos números na lista branca para incluir o sufixo <code>@c.us</code>. Agora os números devem ser adicionados no formato "<a href="mailto:5511993589393@c.us" target="_new">5511993589393@c.us</a>".</li><li>Adicionada melhoria nos logs para depuração do fluxo de mensagens.</li></ul></div>
+<div><ul><li>Corrigido o formato dos números na lista branca para incluir o sufixo <code>@c.us</code>. Agora os números devem ser adicionados no formato "<a href="mailto:5511912345678@c.us" target="_new">5511912345678@c.us</a>".</li><li>Adicionada melhoria nos logs para depuração do fluxo de mensagens.</li></ul></div>
 <div><h2>Roadmap</h2></div>
 <div><h3>Versão 1.0 - DONE</h3></div>
 <div><ul class="contains-task-list"><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Integração com o Flowise para processar as perguntas e obter respostas. - DONE</li><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Funcionalidade de autorização baseada em uma lista branca de números. - DONE</li><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Responder à mensagem "Hi" com uma saudação amigável. - DONE</li><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Lidar com perguntas gerais e fornecer respostas relevantes. - DONE</li></ul></div>
