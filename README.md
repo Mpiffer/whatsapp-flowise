@@ -1,6 +1,5 @@
 <html>
 <body>
-<div><p>Aqui está a versão atualizada do README, desmarcando a Versão 3.0 inteira e marcando a Versão 2.0 como concluída:</p></div>
 <div><h1>WiseBOT</h1></div>
 <div><p>O WiseBOT é um chatbot que utiliza o Flowise para se comunicar e responder perguntas dos usuários.</p></div>
 <div><h2>Updates</h2></div>
