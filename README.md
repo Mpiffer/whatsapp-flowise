@@ -42,6 +42,6 @@ npm install
 <div><h2>Licença</h2></div>
 <div><p>Este projeto está licenciado sob a licença MIT. Leia o arquivo <a href="LICENSE" target="_new">LICENSE</a> para obter mais detalhes.</p></div>
 <div><hr></div>
-<div><p>Certifique-se de ajustar o roadmap de acordo com as metas e objetivos específicos do projeto.</p></div>
+
 </body>
 </html>
