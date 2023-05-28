@@ -1,30 +1,48 @@
 <html>
 <body>
-<div><h1>WhatsApp Chatbot com Integração de API usando Flowise - Documentação</h1></div>
-<div><p>Este é um exemplo de como criar um chatbot no WhatsApp usando a biblioteca <code>@open-wa/wa-automate</code> e integrá-lo com uma API externa usando chamadas CURL, com o auxílio da biblioteca Flowise. O chatbot receberá mensagens dos usuários, enviará uma pergunta para a API e responderá com a resposta obtida.</p></div>
-<div><h2>Pré-requisitos</h2></div>
-<div><p>Antes de começar, certifique-se de ter as seguintes dependências instaladas em seu ambiente de desenvolvimento:</p></div>
-<div><ul><li>Node.js (versão 14 ou superior)</li><li>npm (gerenciador de pacotes do Node.js)</li></ul></div>
-<div><h2>Instalação</h2></div>
-<div><p>Siga as etapas abaixo para configurar o projeto:</p></div>
-<div><ol><li>Clone o repositório do chatbot WhatsApp com integração Flowise para o seu ambiente de desenvolvimento:</li></ol></div>
-<div><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><code class="!whitespace-pre hljs language-bash">git <span class="hljs-built_in">clone</span> https://github.com/Mpiffer/whatsapp-flowise.git
+<div><p>Aqui está a versão atualizada do README, desmarcando a Versão 3.0 inteira e marcando a Versão 2.0 como concluída:</p></div>
+<div><h1>WiseBOT</h1></div>
+<div><p>O WiseBOT é um chatbot que utiliza o Flowise para se comunicar e responder perguntas dos usuários.</p></div>
+<div><h2>Updates</h2></div>
+<div><ul><li>Corrigido o formato dos números na lista branca para incluir o sufixo <code>@c.us</code>. Agora os números devem ser adicionados no formato "<a href="mailto:5511993589393@c.us" target="_new">5511993589393@c.us</a>".</li><li>Adicionada melhoria nos logs para depuração do fluxo de mensagens.</li></ul></div>
+<div><h2>Roadmap</h2></div>
+<div><h3>Versão 1.0</h3></div>
+<div><ul class="contains-task-list"><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Integração com o Flowise para processar as perguntas e obter respostas.</li><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Funcionalidade de autorização baseada em uma lista branca de números.</li><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Responder à mensagem "Hi" com uma saudação amigável.</li><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Lidar com perguntas gerais e fornecer respostas relevantes.</li></ul></div>
+<div><h3>Versão 1.1</h3></div>
+<div><ul class="contains-task-list"><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Adicionar suporte a perguntas mais complexas, com análise de contexto.</li><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Implementar recursos de aprendizado para melhorar as respostas ao longo do tempo.</li><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Integração com APIs externas para obter informações adicionais.</li><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Aprimorar a interface de usuário e a experiência do usuário.</li></ul></div>
+<div><h3>Versão 2.0</h3></div>
+<div><ul class="contains-task-list"><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Integração com plataformas de chat adicionais, como WhatsApp, Facebook Messenger, etc.</li><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Aumentar a cobertura de idiomas suportados.</li><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Adicionar recursos de processamento de linguagem natural avançado.</li><li class="task-list-item"><input type="checkbox" disabled="" checked=""> Incorporar aprendizado de máquina para melhorar a compreensão das perguntas.</li></ul></div>
+<div><h3>Versão 3.0</h3></div>
+<div><ul class="contains-task-list"><li class="task-list-item"><input type="checkbox" disabled=""> Implementar suporte a chatbots de voz.</li><li class="task-list-item"><input type="checkbox" disabled=""> Criar uma interface de administração para gerenciar o chatbot e visualizar métricas.</li><li class="task-list-item"><input type="checkbox" disabled=""> Implementar recursos de personalização e configuração avançada.</li><li class="task-list-item"><input type="checkbox" disabled=""> Aprimorar a escalabilidade e o desempenho do chatbot.</li></ul></div>
+<div><h3>Versão 4.0</h3></div>
+<div><ul class="contains-task-list"><li class="task-list-item"><input type="checkbox" disabled=""> Adicionar suporte a chatbots em redes sociais, como Twitter e Instagram.</li><li class="task-list-item"><input type="checkbox" disabled=""> Incorporar análise de sentimento para responder de acordo com o tom emocional do usuário.</li><li class="task-list-item"><input type="checkbox" disabled=""> Desenvolver recursos de processamento de linguagem natural em tempo real.</li><li class="task-list-item"><input type="checkbox" disabled=""> Integração com assistentes virtuais populares, como Siri, Google Assistant, Alexa, etc.</li></ul></div>
+<div><h2>Como executar o WiseBOT</h2></div>
+<div><ol><li>Clone este repositório.</li></ol></div>
+<div><pre><div class="bg-black rounded-md mb-4"><div class="p-4 overflow-y-auto print:overflow-visible"><code class="!whitespace-pre hljs language-shell">git clone https://github.com/seu-usuario/wisebot.git
 </code></div></div></pre></div>
-<div><ol start="2"><li>Acesse o diretório do projeto:</li></ol></div>
-<div><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><code class="!whitespace-pre hljs language-bash"><span class="hljs-built_in">cd</span> whatsapp-flowise
+<div><ol start="2"><li>Instale as dependências.</li></ol></div>
+<div><pre><div class="bg-black rounded-md mb-4"><div class="p-4 overflow-y-auto print:overflow-visible"><code class="!whitespace-pre hljs language-shell">cd wisebot
+npm install
 </code></div></div></pre></div>
-<div><ol start="3"><li>Instale as dependências do projeto usando o npm:</li></ol></div>
-<div><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><code class="!whitespace-pre hljs language-bash">npm install
+<div><ol start="3"><li>Configure as informações necessárias.</li></ol></div>
+<div><p>Abra o arquivo <code>config.js</code> e insira as credenciais do Flowise e o token de autorização.</p></div>
+<div><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>javascript</span><button class="flex ml-auto gap-2"><div class="p-4 overflow-y-auto print:overflow-visible"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-variable language_">module</span>.<span class="hljs-property">exports</span> = {
+  <span class="hljs-attr">flowiseCredentials</span>: {
+    <span class="hljs-comment">// Insira suas credenciais do Flowise aqui</span>
+  },
+  <span class="hljs-attr">authToken</span>: <span class="hljs-string">'pOZiOWTf4aDiBD2PinQyX9nEjXstIPeGecqUx2onR/E='</span> <span class="hljs-comment">// Insira seu token de autorização aqui</span>
+};
 </code></div></div></pre></div>
-<div><h2>Configuração</h2></div>
-<div><p>Antes de executar o chatbot, você precisa configurar algumas informações:</p></div>
-<div><ol><li><p>Abra o arquivo <code>index.js</code> no diretório raiz do projeto.</p></li><li><p>No bloco de código <code>wa.create()</code>, ajuste as configurações de acordo com suas preferências. Aqui estão algumas opções importantes:</p></li></ol></div>
-<div><ul><li><code>sessionId</code>: Identificador único para sua sessão do WhatsApp.</li><li><code>multiDevice</code>: Defina como <code>true</code> se desejar suportar vários dispositivos conectados à mesma conta do WhatsApp.</li><li><code>authTimeout</code>: Tempo máximo de espera (em segundos) para se conectar ao dispositivo de conta do WhatsApp.</li><li><code>blockCrashLogs</code>: Define se os logs de falhas devem ser bloqueados ou não.</li><li><code>disableSpins</code>: Define se os spins (círculos de carregamento) devem ser desativados ou não.</li><li><code>headless</code>: Define se o navegador será executado no modo headless (sem interface gráfica).</li><li><code>hostNotificationLang</code>: Define o idioma das notificações do host (exemplo: 'PT_BR' para português do Brasil).</li><li><code>logConsole</code>: Define se os logs do console serão exibidos ou não.</li><li><code>popup</code>: Define se os pop-ups serão exibidos durante a execução.</li><li><code>qrTimeout</code>: Tempo máximo de espera (em segundos) para escanear o código QR. Defina como 0 para esperar indefinidamente.</li></ul></div>
-<div><ol start="3"><li><p>No bloco de código <code>client.onMessage()</code>, você pode personalizar as respostas do chatbot com base nas mensagens recebidas. O exemplo atual responde apenas com "👋 Olá!" quando recebe a mensagem "Hi". Você pode adicionar lógica adicional para processar diferentes mensagens e chamar a API conforme necessário.</p></li><li><p>No bloco de código <code>axios.post()</code>, ajuste a URL da API, a pergunta e o cabeçalho de autorização. Substitua <code>http://192.168.15.8:3000/api/v1/prediction/2f3522c3-1e9f-4f2e-a411-f34303e98cd2</code> pela URL correta da sua API. Certifique-se de fornecer a pergunta no formato adequado para a API.</p></li></ol></div>
-<div><h2>Execução</h2></div>
-<div><p>Após configurar o projeto, você pode executar o chatbot com o seguinte comando:</p></div>
-<div><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><code class="!whitespace-pre hljs language-bash">node index.js
+<div><ol start="4"><li>Execute o WiseBOT.</li></ol></div>
+<div><pre><div class="bg-black rounded-md mb-4"><div class="p-4 overflow-y-auto print:overflow-visible"><code class="!whitespace-pre hljs language-shell">node index.js
 </code></div></div></pre></div>
-<div><p>Lembre-se de fornecer suas próprias configurações e adaptar o código conforme necessário para atender aos requisitos específicos do seu projeto.</p></div>
+<div><p>Certifique-se de configurar corretamente as credenciais e outros parâmetros necessários antes de executar o WiseBOT.</p></div>
+<div><h2>Contribuição</h2></div>
+<div><p>Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias, correções de bugs ou novos recursos.</p></div>
+<div><p>Antes de enviar uma solicitação de pull, verifique se o código está de acordo com as diretrizes de estilo e passe por testes adequados.</p></div>
+<div><h2>Licença</h2></div>
+<div><p>Este projeto está licenciado sob a licença MIT. Leia o arquivo <a href="LICENSE" target="_new">LICENSE</a> para obter mais detalhes.</p></div>
+<div><hr></div>
+<div><p>Certifique-se de ajustar o roadmap de acordo com as metas e objetivos específicos do projeto.</p></div>
 </body>
 </html>
