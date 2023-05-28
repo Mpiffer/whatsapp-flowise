@@ -1,7 +1,7 @@
 const wa = require('@open-wa/wa-automate');
 const axios = require('axios');
 
-// Números permitidos na lista branca
+// Números permitidos na lista branca (no formato 5511993589393@c.us)
 const whitelistedNumbers = [
   '551234567890@c.us',
   '551111111111@c.us',
