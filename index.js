@@ -5,7 +5,7 @@ const axios = require('axios');
 const whitelistedNumbers = [
   '551234567890@c.us',
   '551111111111@c.us',
-  '5511993589393@c.us' // Adicione seu número aqui
+  '5511912345678@c.us' // Adicione seu número aqui
 ];
 
 wa.create({
