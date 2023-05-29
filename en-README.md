@@ -23,12 +23,12 @@
 <div><pre><div class="bg-black rounded-md mb-4"><div class="p-4 overflow-y-auto print:overflow-visible"><code class="!whitespace-pre hljs language-shell">cd wisebot
 npm install
 </code></div></div></pre></div>
-<div><ol start="3"><li>Configure as informações necessárias.</li></ol></div>
+<div><ol start="3"><li>Configure.</li></ol></div>
 <div><p>Abra o arquivo <code>index.js</code> e insira as credenciais do Flowise e o token de autorização.</p></div>
 <div><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>javascript</span><button class="flex ml-auto gap-2"><div class="p-4 overflow-y-auto print:overflow-visible"><code class="!whitespace-pre hljs language-javascript">const token = 'pOZiOWTf4aDiBD2PinQyX9nEjXstIPeGecqUx2onR/E='; // Substitua pelo seu token de autorização
   const endpoint = 'http://192.168.15.8:3000/api/v1/prediction/2f3522c3-1e9f-4f2e-a411-f34303e98cd2';
 </code></div></div></pre></div>
-<div><ol start="4"><li>Execute o WiseBOT.</li></ol></div>
+<div><ol start="4"><li>Run the WiseBOT.</li></ol></div>
 <div><pre><div class="bg-black rounded-md mb-4"><div class="p-4 overflow-y-auto print:overflow-visible"><code class="!whitespace-pre hljs language-shell">node index.js
 </code></div></div></pre></div>
 <div><p>Certifique-se de configurar corretamente as credenciais e outros parâmetros necessários antes de executar o WiseBOT.</p></div>
