@@ -1,6 +1,6 @@
 <html>
 <body>
-  EN DOCS https://github.com/Mpiffer/whatsapp-flowise/blob/main/en-README.md
+  EN README https://github.com/Mpiffer/whatsapp-flowise/blob/main/en-README.md
 <div><h1>WiseBOT</h1></div>
 <div><p>O WiseBOT é um chatbot que utiliza o Flowise para se comunicar e responder perguntas dos usuários.</p></div>
 <div><h2>Updates</h2></div>
