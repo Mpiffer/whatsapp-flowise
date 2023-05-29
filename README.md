@@ -17,14 +17,14 @@
 <div><ul class="contains-task-list"><li class="task-list-item"><input type="checkbox" disabled=""> Adicionar suporte a chatbots em redes sociais, como Twitter e Instagram.</li><li class="task-list-item"><input type="checkbox" disabled=""> Incorporar análise de sentimento para responder de acordo com o tom emocional do usuário.</li><li class="task-list-item"><input type="checkbox" disabled=""> Desenvolver recursos de processamento de linguagem natural em tempo real.</li><li class="task-list-item"><input type="checkbox" disabled=""> Integração com assistentes virtuais populares, como Siri, Google Assistant, Alexa, etc.</li></ul></div>
 <div><h2>Como executar o WiseBOT</h2></div>
 <div><ol><li>Clone este repositório.</li></ol></div>
-<div><pre><div class="bg-black rounded-md mb-4"><div class="p-4 overflow-y-auto print:overflow-visible"><code class="!whitespace-pre hljs language-shell">git clone https://github.com/seu-usuario/wisebot.git
+<div><pre><div class="bg-black rounded-md mb-4"><div class="p-4 overflow-y-auto print:overflow-visible"><code class="!whitespace-pre hljs language-shell">git clone https://github.com/Mpiffer/whatsapp-flowise.git
 </code></div></div></pre></div>
 <div><ol start="2"><li>Instale as dependências.</li></ol></div>
 <div><pre><div class="bg-black rounded-md mb-4"><div class="p-4 overflow-y-auto print:overflow-visible"><code class="!whitespace-pre hljs language-shell">cd wisebot
 npm install
 </code></div></div></pre></div>
 <div><ol start="3"><li>Configure as informações necessárias.</li></ol></div>
-<div><p>Abra o arquivo <code>config.js</code> e insira as credenciais do Flowise e o token de autorização.</p></div>
+<div><p>Abra o arquivo <code>index.js</code> e insira as credenciais do Flowise e o token de autorização.</p></div>
 <div><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>javascript</span><button class="flex ml-auto gap-2"><div class="p-4 overflow-y-auto print:overflow-visible"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-variable language_">module</span>.<span class="hljs-property">exports</span> = {
   <span class="hljs-attr">flowiseCredentials</span>: {
     <span class="hljs-comment">// Insira suas credenciais do Flowise aqui</span>
