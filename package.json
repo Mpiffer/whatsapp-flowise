@@ -1,0 +1,18 @@
+{
+    "name": "whatsapp-flowise",
+    "version": "1.0.0",
+    "description": "is it possible to send messages to whatsapp using flowise",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@open-wa/wa-automate": "^1.12.1",
+      "axios": "^0.24.0",
+      "better-sqlite3": "^7.5.0"
+    }
+  }
+  
